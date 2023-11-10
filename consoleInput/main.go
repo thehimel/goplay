@@ -9,10 +9,10 @@ import (
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter input: ")
-	inputData, errInput := reader.ReadString('\n')
-	if errInput != nil {
+	data, err := reader.ReadString('\n')
+	if err != nil {
 		fmt.Println("Input error!")
 		return
 	}
-	fmt.Println("Entered data:", inputData)
+	fmt.Println("Entered data:", data)
 }
