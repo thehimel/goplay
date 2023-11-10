@@ -1,0 +1,2 @@
+# goplay
+Practice golang
