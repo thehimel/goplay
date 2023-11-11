@@ -20,7 +20,7 @@ func main() {
 
 	num, errNum := strconv.ParseFloat(strings.TrimSpace(data), 64)
 	if errNum != nil {
-		log.Fatalln("Error converting data to number for: ", errNum)
+		log.Fatalln("Error converting input data to number: ", errNum)
 	}
 	fmt.Println("Entered number: ", num)
 }
