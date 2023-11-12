@@ -22,9 +22,6 @@ func main() {
 	fmt.Println(fruits)
 
 	// Append elements
-	fruits = append(fruits, 2, 4)
-	fmt.Println(fruits)
-
-	fruits = append(fruits, 6, 7)
+	fruits = append(fruits, 2, 4, 6, 7)
 	fmt.Println(fruits)
 }
